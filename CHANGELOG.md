@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file.
 
+## [unreleased]
+
+### 🚀 Features
+
+- Add linting fix script to package.json
+- Add new script for GitHub release
+
+### 🎨 Styling
+
+- Remove extra space in module.exports definition
+
+### ⚙️ Miscellaneous Tasks
+
+- Remove unused scripts from release-it configuration
+- Update echo statements with variable ${name}
+
+## [0.3.0] - 2024-06-13
+
+### ⚙️ Miscellaneous Tasks
+
+- Add CHANGELOG
+
 ## [0.2.0] - 2024-06-13
 
 ### ⚙️ Miscellaneous Tasks
