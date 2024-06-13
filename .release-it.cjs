@@ -9,7 +9,7 @@ module.exports =  {
     ],
     'before:beforeBump': [
       'git flow release start v${version}',
-      'echo \uD83D\uDC4A before:bump latestVersion=v${version} previousVersion=v${latestVersion}',
+      'echo \uD83D\uDC4A ${name} before:bump latestVersion=v${version} previousVersion=v${latestVersion}',
     ],
     'after:bump': [
       'git cliff -o CHANGELOG.md && git add CHANGELOG.md',
@@ -17,7 +17,7 @@ module.exports =  {
       // 'git flow release publish',
       'git flow release finish -n',
       // equivalent 'git flow release finish v${version} -m "Release v${version}" -n -p -F --keepremote',
-      'echo \uD83D\uDC4A after:bump version=v${version} latestVersion=v${latestVersion}',
+      'echo \uD83D\uDC4A ${name} after:bump version=v${version} latestVersion=v${latestVersion}',
     ],
     'after:release': [
       'echo \uD83D\uDE4C Successfully released ${name} v${version} to ${repo.repository}.',
