@@ -1,4 +1,4 @@
-export default  {
+module.exports =  {
   hooks: {
     'before:init': [
       // 'git fetch --all --tags --prune',
