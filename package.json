@@ -23,7 +23,8 @@
     "release:push": "dotenv -v DEBUG=1 release-it -- minor --ci",
     "pretty": "pretty-quick",
     "lint": "eslint",
-    "lint:fix": "eslint --fix && aic -a"
+    "lint:fix": "eslint --fix && aic -a",
+    "upp":"bunx npm-check-updates -i"
   },
   "dependencies": {
     "lodash": "^4.17.21"
