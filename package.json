@@ -20,7 +20,8 @@
   },
   "scripts": {
     "release": "dotenv -v DEBUG=1 release-it -- minor --no-git.push --no-git.requireUpstream --ci",
-    "pretty": "pretty-quick"
+    "pretty": "pretty-quick",
+    "lint:fix":"eslint --fix && aic -a"
   },
   "dependencies": {
     "lodash": "^4.17.21"
