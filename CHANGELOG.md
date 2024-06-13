@@ -6,6 +6,23 @@ All notable changes to this project will be documented in this file.
 
 ### 🚀 Features
 
+- Add eslint as a linting tool
+- Add npm update package command to scripts
+- Add dev script to run development server
+- Add console log message in index.ts
+
+### 🐛 Bug Fixes
+
+- Update release script name to release:push
+
+### 📚 Documentation
+
+- Remove unnecessary console.log statement
+
+## [0.4.0] - 2024-06-13
+
+### 🚀 Features
+
 - Add linting fix script to package.json
 - Add new script for GitHub release
 
@@ -17,6 +34,7 @@ All notable changes to this project will be documented in this file.
 
 - Remove unused scripts from release-it configuration
 - Update echo statements with variable ${name}
+- Add CHANGELOG
 
 ## [0.3.0] - 2024-06-13
 

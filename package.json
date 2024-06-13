@@ -1,5 +1,5 @@
 {
-  "version": "0.4.0",
+  "version": "0.5.0",
   "name": "release-it-xp",
   "module": "index.ts",
   "type": "module",
@@ -20,9 +20,12 @@
   },
   "scripts": {
     "release": "dotenv -v DEBUG=1 release-it -- minor --no-git.push --no-git.requireUpstream --ci",
-    "release:github": "dotenv -v DEBUG=1 release-it -- minor --ci",
+    "release:push": "dotenv -v DEBUG=1 release-it -- minor --ci",
     "pretty": "pretty-quick",
-    "lint:fix": "eslint --fix && aic -a"
+    "lint": "eslint",
+    "lint:fix": "eslint --fix && aic -a",
+    "upp": "bunx npm-check-updates -i",
+    "dev": "nr src/index.ts"
   },
   "dependencies": {
     "lodash": "^4.17.21"
