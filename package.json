@@ -1,5 +1,5 @@
 {
-  "version": "0.4.0",
+  "version": "0.5.0",
   "name": "release-it-xp",
   "module": "index.ts",
   "type": "module",
@@ -24,8 +24,8 @@
     "pretty": "pretty-quick",
     "lint": "eslint",
     "lint:fix": "eslint --fix && aic -a",
-    "upp":"bunx npm-check-updates -i",
-    "dev":"nr src/index.ts"
+    "upp": "bunx npm-check-updates -i",
+    "dev": "nr src/index.ts"
   },
   "dependencies": {
     "lodash": "^4.17.21"
