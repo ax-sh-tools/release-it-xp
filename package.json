@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "name": "release-it-xp",
   "module": "index.ts",
   "type": "module",
@@ -22,5 +22,7 @@
     "release": "dotenv -v DEBUG=1 release-it -- minor --no-git.push --no-git.requireUpstream --ci",
     "pretty": "pretty-quick"
   },
-  "dependencies": { "lodash": "^4.17.21" }
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
