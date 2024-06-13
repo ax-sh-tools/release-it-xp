@@ -20,7 +20,7 @@
   },
   "scripts": {
     "release": "dotenv -v DEBUG=1 release-it -- minor --no-git.push --no-git.requireUpstream --ci",
-    "release:github": "dotenv -v DEBUG=1 release-it -- minor --ci",
+    "release:push": "dotenv -v DEBUG=1 release-it -- minor --ci",
     "pretty": "pretty-quick",
     "lint:fix": "eslint --fix && aic -a"
   },
