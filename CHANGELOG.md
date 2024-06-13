@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [unreleased]
+
+### 🎨 Styling
+
+- Update include path in tsconfig to only include files in src folder
+
+## [0.6.0] - 2024-06-13
+
+### ⚙️ Miscellaneous Tasks
+
+- Add CHANGELOG
+
 ## [0.5.0] - 2024-06-13
 
 ### 🚀 Features
@@ -10,6 +22,7 @@ All notable changes to this project will be documented in this file.
 - Add npm update package command to scripts
 - Add dev script to run development server
 - Add console log message in index.ts
+- Add include property to tsconfig.json
 
 ### 🐛 Bug Fixes
 
