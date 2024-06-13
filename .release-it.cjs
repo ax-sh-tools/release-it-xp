@@ -4,7 +4,7 @@ module.exports = {
       // 'git fetch --all --tags --prune',
       // 'bun run pretty-quick',
       // 'git commit  --allow-empty -am "chore: format code with Prettier"',
-      // 'nr eslint',
+      'nr eslint',
       // 'nr test',
     ],
     'before:beforeBump': [
@@ -16,7 +16,7 @@ module.exports = {
       'git commit  --allow-empty -am "chore: add CHANGELOG"',
       // 'git flow release publish',
       'git flow release finish -n',
-      // 'git flow release finish v${version} -m "Release v${version}" -n -p -F --keepremote',
+      // equivalent 'git flow release finish v${version} -m "Release v${version}" -n -p -F --keepremote',
       'echo \uD83D\uDC4A after:bump version=v${version} latestVersion=v${latestVersion}',
     ],
     'after:release': [
